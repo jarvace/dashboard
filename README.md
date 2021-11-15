@@ -3,10 +3,6 @@
 
 ## 数据库结构
 
-```mermaid
-graph LR
-db(mysql_model数据库) --> | 用于记录实际仿真数据 | table1(data表)
-db --> |用于存放神经网络预测数据| table2(forcast表)
-```
+![图片](https://user-images.githubusercontent.com/52849591/141780518-41b8e863-f527-4d98-9249-7c780674cb1f.png)
 
 
