@@ -7,7 +7,6 @@
 graph LR
 db(mysql_model数据库) --> | 用于记录实际仿真数据 | table1(data表)
 db --> |用于存放神经网络预测数据| table2(forcast表)
-
 ```
 
 
